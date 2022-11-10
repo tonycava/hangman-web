@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+#ParentCredit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+#InputCredit {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    height: 5rem;
+    width: 42rem;
+}
+
+#HangManWeb {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+#HangMan {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+}

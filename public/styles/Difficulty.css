@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+#ParentReturn {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#InputReturn {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    height: 5rem;
+    width: 43rem;
+}
+
+div:first-of-type {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-right: 15px;
+    line-height: 32px;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    width: 16px;
+    height: 16px;
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 6px solid black;
+}
+
+button,
+legend {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 0;
+    font-size: 14px;
+}
+
+button:hover,
+button:focus {
+    color: #999;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+    outline: 1px solid black;
+}
+
+#contactChoice1, #contactChoice2, #contactChoice3 {
+    border-radius: 50%;
+}
+
+#TittleDif {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+}
+
+#ToCenter {
+    display: flex;
+    justify-content: center;
+}
+
+#ToCenter2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#TxtFile {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+#Txt {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 2.5rem;
+    position: relative;
+    text-align: center;
+}

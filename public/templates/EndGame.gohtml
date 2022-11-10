@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StartGame Menu</title>
+    <link rel="stylesheet" href="public/styles/EndGame.css">
+</head>
+<body>
+<form action="/startgame" id="form" method="get">
+    <div id="ParentRestart">
+        <label id="TittleRestart">Do you want to restart a game :</label>
+    </div>
+    <div id="ParentInputRe">
+        <input type="submit" id="InputRestart" value="Yes">
+    </div>
+
+    <div id="ParentState">
+        <p id="TextState">You are a : {{.OutputWin}}</p>
+    </div>
+
+    <div id="ParentBase">
+        <p id="TextBase">The base word was : {{.OutputText}}</p>
+    </div>
+
+    <div id="ParentTry">
+        <p id="TextTry">With : {{.OutputTry}} Try</p>
+    </div>
+
+</form>
+</body>
+</html>

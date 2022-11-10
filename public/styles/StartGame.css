@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+#TittleStart {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+}
+
+#InputStart {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    height: 5rem;
+    width: 14rem;
+}
+
+#ParenStart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+#ParentInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ParentCredit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#InputCredit {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    height: 5rem;
+    width: 23rem;
+}
+
+#ParentDif {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#InputDif {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    height: 5rem;
+    width: 37rem;
+}

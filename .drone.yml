@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+type: docker
+
+steps:
+  - name: hello-world
+    image: docker:latest
+    commands:
+      - echo "Hello world pls"

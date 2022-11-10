@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(to right, #434343, #000000);
+}
+
+#TittleRestart {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+}
+
+#InputRestart {
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    position: relative;
+    height: 5rem;
+    width: 14rem;
+}
+
+#ParentRestart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ParentInputRe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+#ParentState {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+}
+
+#TextState {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+}
+
+#ParentBase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -11rem;
+}
+
+#TextBase {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    position: relative;
+    text-align: center;
+}
+
+#ParentTry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -9rem;
+}
+
+#TextTry {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 5rem;
+    position: relative;
+    text-align: center;
+}

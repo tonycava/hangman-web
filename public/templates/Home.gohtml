@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HangMan Web</title>
+    <link rel="stylesheet" href="public/styles/Home.css">
+</head>
+<body>
+
+<form method="POST" action="/hangman" id="form">
+    <label id="LabelName">Enter an Input :</label>
+    <div id="FirstParent">
+        <label for="InputLetter"></label><input name="name" type="text" value="" id="InputLetter" autocomplete="off" autofocus>
+    </div>
+
+    <div id="SecondParent">
+        <input type="submit" value="Envoyer" id="Input">
+    </div>
+
+</form>
+
+<div id="ThirdParent">
+    <p id="OutputText">Number of try left : {{.Output}}</p>
+    <p id="OutputSearch">{{.OutputSearch}}</p>
+</div>
+
+<img src="public/hangman/{{.Output}}.png" alt="" height="100px" width="100px">
+
+</body>
+</html>

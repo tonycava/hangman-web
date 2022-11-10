@@ -1,0 +1,61 @@
+body {
+    background: linear-gradient(to left, #434343, #000000);
+}
+
+#LabelName {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-top: 18rem;
+}
+
+#InputLetter {
+    height: 2rem;
+    width: 24rem;
+    margin-top: 3rem;
+}
+
+#FirstParent {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#Input {
+    height: 2rem;
+    width: 24rem;
+    margin-top: 3rem;
+}
+
+#SecondParent {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#OutputText {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    position: absolute;
+    margin-top: -2rem;
+}
+
+#OutputSearch {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 6rem;
+    position: absolute;
+    margin-top: 10rem;
+}
+
+#ThirdParent {
+    margin-top: -20rem;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
