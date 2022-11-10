@@ -37,7 +37,6 @@ func guessCheck(guess string) {
 		}
 		return
 	}
-
 	if contains(state.AlreadyTry, guess) {
 		return
 	}
