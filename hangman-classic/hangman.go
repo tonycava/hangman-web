@@ -53,6 +53,7 @@ func guessCheck(guess string) {
 	}
 
 	state.RevealLetter = append(state.RevealLetter, guess)
+
 	revealLetters(state.RevealLetter)
 
 	if strings.Join(state.DisplayAtScreen, "") == state.Word {
